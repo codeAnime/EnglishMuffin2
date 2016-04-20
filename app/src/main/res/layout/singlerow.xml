@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/singleRow"
+   >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/def"
+        android:text="@string/Define"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="myClickHandler"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vocals"
+        android:text="@string/vocalString"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="myVocalHandler"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display"
+        android:text="@string/test_word"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignTop="@+id/horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/horizontal"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/vocals"
+        android:layout_toRightOf="@+id/def"
+        android:layout_toEndOf="@+id/def">
+
+        <TextView
+            android:layout_alignTop="@+id/horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Definition"
+            android:text="Definition: "
+            android:layout_below="@+id/def"
+            android:layout_toRightOf="@+id/def"
+            android:layout_toEndOf="@+id/def"
+            android:maxLines="3"
+
+        />
+</HorizontalScrollView>
+   <!-- />   -->
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">English Muffin</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="playSound">Pronuncation</string>
+    <string name="getWord">Obtain Word</string>
+    <string name="def">definition</string>
+    <string name="wordValue">word</string>
+    <string name="test_word">lion</string>
+    <string name="Define">Define</string>
+    <string name="test_string">Definition is here: bla bla blaa blaaa blaaaa blaaaaa blaaaaqqwe blasdlfjh</string>
+    <string name="vocalString">Hear Word</string>
+    <string name="title">Assignments:</string>
+    <string name="LogIn">Log In</string>
+</resources>
